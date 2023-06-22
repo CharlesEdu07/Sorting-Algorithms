@@ -18,20 +18,13 @@ O diretório do projeto contém a seguinte estrutura:
 
 projeto-analise-algoritmos/
 
-├── fontes/
-
+├── fontes/ 
 │ ├── nome_algoritmo/
-
 │ │ └── algoritmo.c
-
 ├── graficos/
-
 │ └── nome_algoritmo/
-
 │ ├── nome_caso/
-
 │ └── nome_algoritmo/
-
 └── README.md
 
 ## Executando os códigos
