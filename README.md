@@ -1,39 +1,64 @@
-Este projeto se trata de uma atividade avaliativa da disciplina de Estrutura de Dados.
+Projeto de Análise de Algoritmos de Ordenação
+Este projeto consiste em uma atividade avaliativa da disciplina de Estrutura de Dados.
 
-Este trabalho tem como principal objetivo realizar uma análise dos algoritmos de ordenação, levando
-em consideração, principalmente, seus respectivos tempos de execução, assim como comparar os diferentes
-cenários de cada uma das tarefas de ordenação.
+O objetivo principal deste trabalho é realizar uma análise dos algoritmos de ordenação, com foco especial nos tempos de execução de cada algoritmo. Além disso, busca-se comparar os diferentes cenários de cada tarefa de ordenação.
 
-Os códigos foram feitos utilizando a linguagem de programação C.
+Os códigos desenvolvidos para este projeto foram implementados em linguagem de programação C.
 
-Para executar os códigos deste trabalho é necessário ter um compilador C instalado na máquina (gcc).
+Requisitos
+Antes de executar os códigos deste projeto, certifique-se de ter um compilador C instalado na sua máquina. Recomenda-se o uso do GCC (GNU Compiler Collection).
 
-Para gerar os gráficos, é necessário ter o Gnuplot instalado.
+Também é necessário ter o Gnuplot instalado para gerar os gráficos correspondentes.
 
-======== Diretório dos codigos =========
+Estrutura do diretório
+O diretório do projeto contém a seguinte estrutura:
 
-\fontes\nome_algoritmo\algoritmo.c
+Copy code
+projeto-analise-algoritmos/
+  ├── fontes/
+  │   ├── nome_algoritmo/
+  │   │   └── algoritmo.c
+  ├── graficos/
+  │   └── nome_algoritmo/
+  │       ├── nome_caso/
+  │       └── nome_algoritmo/
+  └── README.md
+Executando os códigos
+Para executar os códigos deste projeto, siga as instruções abaixo:
 
-========================================
+Navegue até o diretório do arquivo C correspondente ao algoritmo desejado.
 
+Execute o seguinte comando no terminal:
 
-======== Comandos para executar ========
-
-Na pasta do arquivo C, execute:
-
+Copy code
 gcc -Wall arquivo.c -o arquivo
+Certifique-se de substituir "arquivo" pelo nome real do arquivo C.
 
+Após a compilação bem-sucedida, execute o programa com o seguinte comando:
+
+bash
+Copy code
 ./arquivo tamanho_vetor
+Substitua "arquivo" pelo nome do executável gerado e "tamanho_vetor" pelo tamanho desejado para o vetor de entrada.
 
-========================================
+Gerando os gráficos
+Para gerar os gráficos correspondentes aos resultados obtidos, siga as instruções abaixo:
 
+Navegue até o diretório do algoritmo específico em graficos/nome_algoritmo/nome_caso ou graficos/nome_algoritmo.
 
-======== Como gerar os gráficos ========
+Abra o terminal nesse diretório.
 
-Para gerar os gráficos, use o gnuplot no diretório \grafico\nome_algoritmo\nome_caso ou \grafico\nome_algoritmo
+Digite o comando gnuplot para abrir o Gnuplot.
 
-Com o terminal aberto neste diretório, digite:
+Use o seguinte comando para plotar o gráfico a partir do arquivo de dados:
 
-gnuplot
-
+csharp
+Copy code
 plot "arquivo.txt" with linespoint
+Substitua "arquivo.txt" pelo nome do arquivo de dados correspondente.
+
+Contribuição
+Este projeto é resultado de uma atividade acadêmica e não está aberto para contribuições externas no momento.
+
+Licença
+Este projeto é licenciado sob a MIT License. Consulte o arquivo LICENSE para obter mais informações.
