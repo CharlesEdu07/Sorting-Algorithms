@@ -16,8 +16,6 @@ Também é necessário ter o Gnuplot instalado para gerar os gráficos correspon
 
 O diretório do projeto contém a seguinte estrutura:
 
-projeto-analise-algoritmos/
-
 <pre>
 projeto-analise-algoritmos/
 ├── fontes/
