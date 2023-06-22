@@ -38,17 +38,17 @@ Para executar os códigos deste projeto, siga as instruções abaixo:
 1. Navegue até o diretório do arquivo C correspondente ao algoritmo desejado.
 2. Execute o seguinte comando no terminal:
 
-
+<pre>
 gcc -Wall arquivo.c -o arquivo
-
+</pre>
 
 Certifique-se de substituir "arquivo" pelo nome real do arquivo C.
 
 3. Após a compilação bem-sucedida, execute o programa com o seguinte comando:
 
-
+<pre>
 ./arquivo tamanho_vetor
-
+</pre>
 
 Substitua "arquivo" pelo nome do executável gerado e "tamanho_vetor" pelo tamanho desejado para o vetor de entrada.
 
@@ -61,8 +61,9 @@ Para gerar os gráficos correspondentes aos resultados obtidos, siga as instruç
 3. Digite o comando `gnuplot` para abrir o Gnuplot.
 4. Use o seguinte comando para plotar o gráfico a partir do arquivo de dados:
 
+<pre>
 plot "arquivo.txt" with linespoint
-
+</pre>
 
 Substitua "arquivo.txt" pelo nome do arquivo de dados correspondente.
 
